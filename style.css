@@ -1,0 +1,22 @@
+body{
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+button{
+    background-image: url("https://winaero.com/blog/wp-content/uploads/2018/11/personalization-appearanance-icon-2-big-256.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    scale: 1.1;
+}
